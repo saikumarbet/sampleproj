@@ -9,6 +9,21 @@
 </head>
 
 <body>
+     <main>
+        <div><img src="https://assets.codepen.io/86170/img-1.webp" alt="Orango Jones"></div>
+        <button id="dialog-open">Keep me informed</button>
+    </main>
+
+    <dialog id="dialog">
+        <h2>Keep me informed</h2>
+        <form action="" method="" name="">
+            <label for="notify-email" data-visibility="hidden">Email address</label>
+            <input type="email" id="dialog-email" name="dialog-email" placeholder="you @ your domain" required="">
+            <button type="submit">Submit</button>
+        </form>
+        <button id="dialog-close">&#x2716</button>
+    </dialog>
+    
     <div class="wrapper">
          <div class="textDiv">Hello world.</div>
         <div class="textDiv">There’s lots of ways to be, as a person.</div>
@@ -46,3 +61,4 @@
 
 
 </html>
+
